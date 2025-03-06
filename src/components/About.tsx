@@ -45,15 +45,11 @@ export default function About() {
                 <p className="text-white">Unique Designs</p>
               </div>
               <div className="text-center p-4 rounded-lg bg-[#36172D]">
-                <h3 className="text-2xl font-semibold mb-2 text-white">
-                  50+
-                </h3>
+                <h3 className="text-2xl font-semibold mb-2 text-white">50+</h3>
                 <p className="text-white">Artisan Partners</p>
               </div>
               <div className="text-center p-4 rounded-lg bg-[#36172D]">
-                <h3 className="text-2xl font-semibold mb-2 text-white">
-                  20+
-                </h3>
+                <h3 className="text-2xl font-semibold mb-2 text-white">20+</h3>
                 <p className="text-white">Years of Excellence</p>
               </div>
             </div>

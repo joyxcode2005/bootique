@@ -1,24 +1,16 @@
-import Header from "./components/Header";
-import Hero from "./components/Hero";
-import FeaturedCollection from "./components/FeaturedCollection";
-import Categories from "./components/Categories";
-import About from "./components/About";
-import Contact from "./components/Contact";
-import Footer from "./components/Footer";
-import { globalStyles } from "./constants";
+import { BrowserRouter, Route, Routes } from "react-router-dom";
+import HomePage from "./pages/HomePage";
+import Collections from "./pages/Collections";
 
 function App() {
   return (
-    <div className="min-h-screen bg-white">
-      <style>{globalStyles}</style>
-      <Header />
-      <Hero />
-      <FeaturedCollection />
-      <Categories />
-      <About />
-      <Contact />
-      <Footer />
-    </div>
+    <BrowserRouter>
+      <Routes>
+        <Route path="/" element={<HomePage />} />
+        <Route path="/sarees" element={<Collections />} />
+        {/* Other routes */}
+      </Routes>
+    </BrowserRouter>
   );
 }
 

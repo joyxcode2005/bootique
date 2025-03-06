@@ -20,13 +20,15 @@ export default function Footer() {
             </p>
             <div className="flex space-x-4">
               <a
-                href="#"
+                href="https://www.instagram.com/angellaevelyngomes?igsh=MTdwYnJqZnMyNHN5Yg=="
+                target="_blank"
                 className="text-gray-400 hover:text-white transition"
               >
                 <InstagramIcon className="h-6 w-6" />
               </a>
               <a
-                href="#"
+                href="https://www.facebook.com/share/15xEChNV7K/"
+                target="_blank"
                 className="text-gray-400 hover:text-white transition"
               >
                 <FacebookIcon className="h-6 w-6" />
@@ -148,23 +150,23 @@ export default function Footer() {
               <li className="flex items-start">
                 <MapPin className="h-5 w-5 text-white mr-3 mt-1 flex-shrink-0" />
                 <span className="text-gray-400">
-                  123 Fashion Street, New York, NY 10001
+                    Opp. mbazaar, Tarulia, Krishnapur, Kolkata - 700102
                 </span>
               </li>
               <li className="flex items-center">
                 <Phone className="h-5 w-5 text-white mr-3 flex-shrink-0" />
-                <span className="text-gray-400">+1 (555) 123-4567</span>
+                <span className="text-gray-400">+91 94339 03546</span>
               </li>
               <li className="flex items-center">
                 <Mail className="h-5 w-5 text-white mr-3 flex-shrink-0" />
-                <span className="text-gray-400">contact@aabaroni.com</span>
+                <span className="text-gray-400"> angella73.ag@gmail.com</span>
               </li>
             </ul>
           </div>
         </div>
 
         <div className="border-t border-gray-800 mt-8 pt-8 text-center text-gray-500">
-          <p>&copy; 2024 আবরণী. All rights reserved.</p>
+          <p>&copy; 2025 আবরণী. All rights reserved.</p>
         </div>
       </div>
     </footer>

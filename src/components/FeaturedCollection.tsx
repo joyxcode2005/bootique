@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom";
 import { featuredSarees } from "../constants";
 import SectionTitle from "./SectionTitle";
 
@@ -11,7 +12,7 @@ export default function FeaturedCollection() {
         />
 
         <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
-          {featuredSarees.map((saree) => (
+          {featuredSarees.slice(0, 3).map((saree) => (
             <div
               key={saree.id}
               className={`group bg-white rounded-lg overflow-hidden shadow-md hover:shadow-xl transition duration-300 transform hover:-translate-y-2 cursor-pointer`}
@@ -23,7 +24,7 @@ export default function FeaturedCollection() {
                   className="w-full h-80 object-cover transition-transform duration-500 group-hover:scale-105"
                 />
                 <div className="absolute top-4 right-4 bg-[#36172D] text-white text-sm font-medium py-1 px-3 rounded-full">
-                  New Arrival
+                  New Collection
                 </div>
               </div>
               <div className="p-6">
@@ -35,9 +36,6 @@ export default function FeaturedCollection() {
                   <span className="text-xl font-bold text-[#36172D]">
                     {saree.price}
                   </span>
-                  {/* <button className="border border-[#36172D] text-black hover:bg-[#36172D] hover:text-white px-4 py-2 rounded-lg transition duration-300 cursor-pointer">
-                    View Details
-                  </button> */}
                 </div>
               </div>
             </div>
@@ -45,13 +43,13 @@ export default function FeaturedCollection() {
         </div>
 
         <div className="text-center mt-12">
-          <button className="border-2 border-[#36172D] hover:text-white hover:bg-[#36172D] text-black px-8 py-3 rounded-full transition duration-300 font-medium cursor-pointer">
-            View All Collections
-          </button>
+          <Link to={"/sarees"}>
+            <button className="border-2 border-[#36172D] hover:text-white hover:bg-[#36172D] text-black px-8 py-3 rounded-full transition duration-300 font-medium cursor-pointer">
+              View All Collections
+            </button>
+          </Link>
         </div>
       </div>
     </section>
   );
 }
-
-

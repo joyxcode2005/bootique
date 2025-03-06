@@ -46,7 +46,7 @@ export default function Header() {
             <ul className="flex space-x-8">
               <li>
                 <a
-                  href="#"
+                  href="/"
                   className={`${
                     isScrolled ? "text-[#36172D]" : "text-white"
                   } hover:text-[#B0C4B9] transition font-medium`}
