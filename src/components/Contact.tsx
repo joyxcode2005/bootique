@@ -38,14 +38,16 @@ export default function Contact() {
             title="Email"
             text="angella73.ag@gmail.com"
           />
+          <a href="https://goo.gl/maps/XoKBkphTcmxEvwFJ7" target="_blank">
           <ContactCard
             icon={MapPin}
             title="Location"
             text="Opp. mbazaar, Tarulia, Krishnapur, Kolkata - 700102"
           />
+          </a>
         </div>
       </div>
-      <div className="mt-16 mx-auto p-8 bg-white rounded-lg shadow-lg">
+      <div className="mt-16 mx-6 my-2  p-8 bg-white rounded-lg shadow-lg">
         <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
           <div>
             <h3 className="text-2xl font-bold mb-4">Send Us a Message</h3>

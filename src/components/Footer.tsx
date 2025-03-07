@@ -1,4 +1,5 @@
-import {  FacebookIcon, InstagramIcon, Mail, MapPin, Phone } from "lucide-react";
+import { FacebookIcon, InstagramIcon, Mail, MapPin, Phone } from "lucide-react";
+import { Link } from "react-router-dom";
 
 export default function Footer() {
   return (
@@ -35,7 +36,6 @@ export default function Footer() {
               </a>
             </div>
           </div>
-
           <div>
             <h4 className="text-lg font-semibold mb-6 border-b border-gray-700 pb-2">
               Quick Links
@@ -88,56 +88,55 @@ export default function Footer() {
               </li>
             </ul>
           </div>
-
           <div>
             <h4 className="text-lg font-semibold mb-6 border-b border-gray-700 pb-2">
               Collections
             </h4>
             <ul className="space-y-3">
               <li>
-                <a
-                  href="#"
+                <Link
+                  to="/sarees"
                   className="text-gray-400 hover:text-white transition flex items-center"
                 >
                   <span className="w-2 h-2 bg-[#B0C4B9] rounded-full mr-2"></span>
                   Banarasi Silk
-                </a>
+                </Link>
               </li>
               <li>
-                <a
-                  href="#"
+                <Link
+                  to="/sarees"
                   className="text-gray-400 hover:text-white transition flex items-center"
                 >
                   <span className="w-2 h-2 bg-[#B0C4B9] rounded-full mr-2"></span>
                   Kanjeevaram
-                </a>
+                </Link>
               </li>
               <li>
-                <a
-                  href="#"
+                <Link
+                  to="/sarees"
                   className="text-gray-400 hover:text-white transition flex items-center"
                 >
                   <span className="w-2 h-2 bg-[#B0C4B9] rounded-full mr-2"></span>
                   Designer Sarees
-                </a>
+                </Link>
               </li>
               <li>
-                <a
-                  href="#"
+                <Link
+                  to="/sarees"
                   className="text-gray-400 hover:text-white transition flex items-center"
                 >
                   <span className="w-2 h-2 bg-[#B0C4B9] rounded-full mr-2"></span>
                   Bridal Collection
-                </a>
+                </Link>
               </li>
               <li>
-                <a
-                  href="#"
+                <Link
+                  to="/sarees"
                   className="text-gray-400 hover:text-white transition flex items-center"
                 >
                   <span className="w-2 h-2 bg-[#B0C4B9] rounded-full mr-2"></span>
                   Jamdani
-                </a>
+                </Link>
               </li>
             </ul>
           </div>
@@ -150,7 +149,7 @@ export default function Footer() {
               <li className="flex items-start">
                 <MapPin className="h-5 w-5 text-white mr-3 mt-1 flex-shrink-0" />
                 <span className="text-gray-400">
-                    Opp. mbazaar, Tarulia, Krishnapur, Kolkata - 700102
+                  Opp. mbazaar, Tarulia, Krishnapur, Kolkata - 700102
                 </span>
               </li>
               <li className="flex items-center">

@@ -12,7 +12,7 @@ export default function FeaturedCollection() {
         />
 
         <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
-          {featuredSarees.slice(0, 3).map((saree) => (
+          {featuredSarees.slice(0, 6).map((saree) => (
             <div
               key={saree.id}
               className={`group bg-white rounded-lg overflow-hidden shadow-md hover:shadow-xl transition duration-300 transform hover:-translate-y-2 cursor-pointer`}
